@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/rabblerouser-challenge/vendor/laravel/framework/src/Illuminate/Database</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../../../../../../../../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../../../../../../../css/nv.d3.css" rel="stylesheet">
+  <link href="../../../../../../../../../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../../../../../../../../../js/html5shiv.min.js"></script>
+  <script src="../../../../../../../../../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../../../../../../../../../index.html"></a></li>
+        <li><a href="../../../../../../../../index.html">var</a></li>
+        <li><a href="../../../../../../../index.html">www</a></li>
+        <li><a href="../../../../../../index.html">rabblerouser-challenge</a></li>
+        <li><a href="../../../../../index.html">vendor</a></li>
+        <li><a href="../../../../index.html">laravel</a></li>
+        <li><a href="../../../index.html">framework</a></li>
+        <li><a href="../../index.html">src</a></li>
+        <li><a href="../index.html">Illuminate</a></li>
+        <li><a href="index.html">Database</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Eloquent/Collection.php.html#5">Collection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#13">Builder</a></td><td class="text-right">17%</td></tr>
+       <tr><td><a href="Query/Processors/Processor.php.html#5">Processor</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#5">MySqlGrammar</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#6">Grammar</a></td><td class="text-right">21%</td></tr>
+       <tr><td><a href="Connection.php.html#13">Connection</a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="MySqlConnection.php.html#8">MySqlConnection</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Connectors/Connector.php.html#5">Connector</a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#15">MigrationServiceProvider</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="SeedServiceProvider.php.html#6">SeedServiceProvider</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Connectors/MySqlConnector.php.html#3">MySqlConnector</a></td><td class="text-right">67%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Query/Builder.php.html#13">Builder</a></td><td class="text-right">15875</td></tr>
+       <tr><td><a href="Connection.php.html#13">Connection</a></td><td class="text-right">3283</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#6">Grammar</a></td><td class="text-right">2624</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#5">Collection</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#5">MySqlGrammar</a></td><td class="text-right">127</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#15">MigrationServiceProvider</a></td><td class="text-right">25</td></tr>
+       <tr><td><a href="Connectors/MySqlConnector.php.html#3">MySqlConnector</a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="MySqlConnection.php.html#8">MySqlConnection</a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="Query/Processors/Processor.php.html#5">Processor</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Query/Builder.php.html#1813"><abbr title="Builder::mergeWheres">mergeWheres</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1788"><abbr title="Builder::truncate">truncate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1840"><abbr title="Builder::raw">raw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1860"><abbr title="Builder::getRawBindings">getRawBindings</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1874"><abbr title="Builder::setBindings">setBindings</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1771"><abbr title="Builder::delete">delete</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1756"><abbr title="Builder::decrement">decrement</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1656"><abbr title="Builder::insert">insert</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1627"><abbr title="Builder::aggregate">aggregate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1707"><abbr title="Builder::insertGetId">insertGetId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1722"><abbr title="Builder::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1739"><abbr title="Builder::increment">increment</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1932"><abbr title="Builder::getConnection">getConnection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1942"><abbr title="Builder::getProcessor">getProcessor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#84"><abbr title="Collection::fetch">fetch</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#68"><abbr title="Collection::contains">contains</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#95"><abbr title="Collection::max">max</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#109"><abbr title="Collection::min">min</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#133"><abbr title="Collection::merge">merge</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#54"><abbr title="Collection::add">add</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#34"><abbr title="Collection::load">load</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1952"><abbr title="Builder::getGrammar">getGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1962"><abbr title="Builder::useWritePdo">useWritePdo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1978"><abbr title="Builder::__call">__call</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#14"><abbr title="Collection::find">find</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1615"><abbr title="Builder::avg">avg</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1602"><abbr title="Builder::sum">sum</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1290"><abbr title="Builder::sharedLock">sharedLock</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1280"><abbr title="Builder::lockForUpdate">lockForUpdate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1312"><abbr title="Builder::find">find</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1323"><abbr title="Builder::pluck">pluck</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1336"><abbr title="Builder::first">first</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#165"><abbr title="Connection::getDefaultQueryGrammar">getDefaultQueryGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1257"><abbr title="Builder::unionAll">unionAll</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1174"><abbr title="Builder::offset">offset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1189"><abbr title="Builder::skip">skip</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1227"><abbr title="Builder::forPage">forPage</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1239"><abbr title="Builder::union">union</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1384"><abbr title="Builder::paginate">paginate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1406"><abbr title="Builder::simplePaginate">simplePaginate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1547"><abbr title="Builder::exists">exists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1535"><abbr title="Builder::implode">implode</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1564"><abbr title="Builder::count">count</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1580"><abbr title="Builder::min">min</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1591"><abbr title="Builder::max">max</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1513"><abbr title="Builder::getListSelect">getListSelect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1497"><abbr title="Builder::lists">lists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1422"><abbr title="Builder::getCountForPagination">getCountForPagination</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1438"><abbr title="Builder::backupFieldsForCount">backupFieldsForCount</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1453"><abbr title="Builder::restoreFieldsForCount">restoreFieldsForCount</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1470"><abbr title="Builder::chunk">chunk</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#151"><abbr title="Collection::diff">diff</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#174"><abbr title="Collection::intersect">intersect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#648"><abbr title="Grammar::compileInsertGetId">compileInsertGetId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#614"><abbr title="Grammar::compileInsert">compileInsert</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#660"><abbr title="Grammar::compileUpdate">compileUpdate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#702"><abbr title="Grammar::compileDelete">compileDelete</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#717"><abbr title="Grammar::compileTruncate">compileTruncate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#600"><abbr title="Grammar::compileUnion">compileUnion</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#567"><abbr title="Grammar::compileUnions">compileUnions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#491"><abbr title="Grammar::compileHaving">compileHaving</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#510"><abbr title="Grammar::compileBasicHaving">compileBasicHaving</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#526"><abbr title="Grammar::compileOrders">compileOrders</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#556"><abbr title="Grammar::compileOffset">compileOffset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#729"><abbr title="Grammar::compileLock">compileLock</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#754"><abbr title="Grammar::removeLeadingBoolean">removeLeadingBoolean</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#101"><abbr title="MySqlGrammar::compileDelete">compileDelete</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#78"><abbr title="MySqlGrammar::compileUpdate">compileUpdate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Processors/Processor.php.html#28"><abbr title="Processor::processInsertGetId">processInsertGetId</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Processors/Processor.php.html#43"><abbr title="Processor::processColumnListing">processColumnListing</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SeedServiceProvider.php.html#50"><abbr title="SeedServiceProvider::provides">provides</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#64"><abbr title="MySqlGrammar::compileLock">compileLock</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#50"><abbr title="MySqlGrammar::compileUnion">compileUnion</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#215"><abbr title="MigrationServiceProvider::provides">provides</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MySqlConnection.php.html#15"><abbr title="MySqlConnection::getSchemaBuilder">getSchemaBuilder</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MySqlConnection.php.html#37"><abbr title="MySqlConnection::getDefaultSchemaGrammar">getDefaultSchemaGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MySqlConnection.php.html#57"><abbr title="MySqlConnection::getDoctrineDriver">getDoctrineDriver</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#478"><abbr title="Grammar::compileHavings">compileHavings</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#466"><abbr title="Grammar::compileGroups">compileGroups</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#176"><abbr title="Grammar::compileJoinConstraint">compileJoinConstraint</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#127"><abbr title="Grammar::compileJoins">compileJoins</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#241"><abbr title="Grammar::whereSub">whereSub</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#269"><abbr title="Grammar::whereBetween">whereBetween</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#283"><abbr title="Grammar::whereExists">whereExists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#74"><abbr title="Grammar::compileAggregate">compileAggregate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#254"><abbr title="Collection::toBase">toBase</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#196"><abbr title="Collection::unique">unique</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#209"><abbr title="Collection::only">only</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#222"><abbr title="Collection::except">except</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#235"><abbr title="Collection::getDictionary">getDictionary</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#295"><abbr title="Grammar::whereNotExists">whereNotExists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#307"><abbr title="Grammar::whereIn">whereIn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#415"><abbr title="Grammar::whereMonth">whereMonth</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#403"><abbr title="Grammar::whereDay">whereDay</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#427"><abbr title="Grammar::whereYear">whereYear</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#440"><abbr title="Grammar::dateBasedWhere">dateBasedWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#454"><abbr title="Grammar::whereRaw">whereRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#391"><abbr title="Grammar::whereDate">whereDate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#379"><abbr title="Grammar::whereNotNull">whereNotNull</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#323"><abbr title="Grammar::whereNotIn">whereNotIn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#339"><abbr title="Grammar::whereInSub">whereInSub</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#353"><abbr title="Grammar::whereNotInSub">whereNotInSub</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#367"><abbr title="Grammar::whereNull">whereNull</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1157"><abbr title="Builder::orderByRaw">orderByRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1268"><abbr title="Builder::lock">lock</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#914"><abbr title="Connection::getSchemaGrammar">getSchemaGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#904"><abbr title="Connection::setQueryGrammar">setQueryGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#925"><abbr title="Connection::setSchemaGrammar">setSchemaGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#946"><abbr title="Connection::setPostProcessor">setPostProcessor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#956"><abbr title="Connection::getEventDispatcher">getEventDispatcher</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#883"><abbr title="Connection::getDriverName">getDriverName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#837"><abbr title="Connection::setReadPdo">setReadPdo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#762"><abbr title="Connection::getDoctrineColumn">getDoctrineColumn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#774"><abbr title="Connection::getDoctrineSchemaManager">getDoctrineSchemaManager</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#784"><abbr title="Connection::getDoctrineConnection">getDoctrineConnection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#821"><abbr title="Connection::setPdo">setPdo</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1008"><abbr title="Connection::getQueryLog">getQueryLog</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1018"><abbr title="Connection::flushQueryLog">flushQueryLog</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1090"><abbr title="Connection::setTablePrefix">setTablePrefix</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connectors/Connector.php.html#55"><abbr title="Connector::getDefaultOptions">getDefaultOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connectors/Connector.php.html#66"><abbr title="Connector::setDefaultOptions">setDefaultOptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connectors/MySqlConnector.php.html#89"><abbr title="MySqlConnector::getSocketDsn">getSocketDsn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1079"><abbr title="Connection::getTablePrefix">getTablePrefix</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1069"><abbr title="Connection::setDatabaseName">setDatabaseName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1028"><abbr title="Connection::enableQueryLog">enableQueryLog</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1038"><abbr title="Connection::disableQueryLog">disableQueryLog</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1145"><abbr title="Builder::oldest">oldest</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1058"><abbr title="Connection::getDatabaseName">getDatabaseName</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#736"><abbr title="Connection::fireConnectionEvent">fireConnectionEvent</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#722"><abbr title="Connection::listen">listen</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#394"><abbr title="Connection::anonymous function">anonymous function</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#266"><abbr title="Connection::selectFromWriteConnection">selectFromWriteConnection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#314"><abbr title="Connection::insert">insert</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#326"><abbr title="Connection::update">update</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#338"><abbr title="Connection::delete">delete</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#252"><abbr title="Connection::selectOne">selectOne</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#240"><abbr title="Connection::raw">raw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#175"><abbr title="Connection::useDefaultSchemaGrammar">useDefaultSchemaGrammar</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#202"><abbr title="Connection::getDefaultPostProcessor">getDefaultPostProcessor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#212"><abbr title="Connection::getSchemaBuilder">getSchemaBuilder</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#225"><abbr title="Connection::table">table</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#350"><abbr title="Connection::statement">statement</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#369"><abbr title="Connection::affectingStatement">affectingStatement</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#633"><abbr title="Connection::tryAgainIfCausedByLostConnection">tryAgainIfCausedByLostConnection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#651"><abbr title="Connection::causedByLostConnection">causedByLostConnection</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#661"><abbr title="Connection::disconnect">disconnect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#673"><abbr title="Connection::reconnect">reconnect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#533"><abbr title="Connection::pretend">pretend</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#522"><abbr title="Connection::transactionLevel">transactionLevel</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#438"><abbr title="Connection::transaction">transaction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#470"><abbr title="Connection::beginTransaction">beginTransaction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#487"><abbr title="Connection::commit">commit</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#501"><abbr title="Connection::rollBack">rollBack</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#212"><abbr title="Builder::select">select</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Connection.php.html#1048"><abbr title="Connection::logging">logging</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#850"><abbr title="Builder::whereNull">whereNull</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#826"><abbr title="Builder::whereInSub">whereInSub</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#865"><abbr title="Builder::orWhereNull">orWhereNull</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#877"><abbr title="Builder::whereNotNull">whereNotNull</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#888"><abbr title="Builder::orWhereNotNull">orWhereNotNull</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#226"><abbr title="Builder::selectRaw">selectRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1118"><abbr title="Builder::orderBy">orderBy</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#747"><abbr title="Builder::orWhereNotExists">orWhereNotExists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#761"><abbr title="Builder::whereIn">whereIn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#787"><abbr title="Builder::orWhereIn">orWhereIn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#800"><abbr title="Builder::whereNotIn">whereNotIn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#902"><abbr title="Builder::whereDate">whereDate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#916"><abbr title="Builder::whereDay">whereDay</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1056"><abbr title="Builder::having">having</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1075"><abbr title="Builder::orHaving">orHaving</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1088"><abbr title="Builder::havingRaw">havingRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1106"><abbr title="Builder::orHavingRaw">orHavingRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1037"><abbr title="Builder::groupBy">groupBy</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1021"><abbr title="Builder::addDynamic">addDynamic</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#930"><abbr title="Builder::whereMonth">whereMonth</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#944"><abbr title="Builder::whereYear">whereYear</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#959"><abbr title="Builder::addDateBasedWhere">addDateBasedWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#975"><abbr title="Builder::dynamicWhere">dynamicWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#736"><abbr title="Builder::whereNotExists">whereNotExists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#812"><abbr title="Builder::orWhereNotIn">orWhereNotIn</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#323"><abbr title="Builder::join">join</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1134"><abbr title="Builder::latest">latest</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1828"><abbr title="Builder::anonymous function">anonymous function</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#515"><abbr title="Builder::orWhere">orWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#360"><abbr title="Builder::joinWhere">joinWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#416"><abbr title="Builder::rightJoinWhere">rightJoinWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#402"><abbr title="Builder::rightJoin">rightJoin</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#388"><abbr title="Builder::leftJoinWhere">leftJoinWhere</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#374"><abbr title="Builder::leftJoin">leftJoin</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#724"><abbr title="Builder::orWhereExists">orWhereExists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#542"><abbr title="Builder::whereRaw">whereRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#560"><abbr title="Builder::orWhereRaw">orWhereRaw</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#673"><abbr title="Builder::whereSub">whereSub</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#699"><abbr title="Builder::whereExists">whereExists</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#278"><abbr title="Builder::addSelect">addSelect</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#245"><abbr title="Builder::selectSub">selectSub</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#617"><abbr title="Builder::orWhereNotBetween">orWhereNotBetween</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#605"><abbr title="Builder::whereNotBetween">whereNotBetween</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#574"><abbr title="Builder::whereBetween">whereBetween</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#592"><abbr title="Builder::orWhereBetween">orWhereBetween</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#292"><abbr title="Builder::distinct">distinct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#180"><abbr title="MigrationServiceProvider::registerMakeCommand">registerMakeCommand</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#46"><abbr title="MigrationServiceProvider::registerRepository">registerRepository</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Connection.php.html#599"><abbr title="Connection::runQueryCallback">runQueryCallback</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="SeedServiceProvider.php.html#39"><abbr title="SeedServiceProvider::anonymous function">anonymous function</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#61"><abbr title="MigrationServiceProvider::registerMigrator">registerMigrator</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#204"><abbr title="MigrationServiceProvider::anonymous function">anonymous function</a></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Connection.php.html#688"><abbr title="Connection::reconnectIfMissingConnection">reconnectIfMissingConnection</a></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Connection.php.html#408"><abbr title="Connection::prepareBindings">prepareBindings</a></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Connectors/MySqlConnector.php.html#11"><abbr title="MySqlConnector::connect">connect</a></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#154"><abbr title="MigrationServiceProvider::registerStatusCommand">registerStatusCommand</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#146"><abbr title="MigrationServiceProvider::registerRefreshCommand">registerRefreshCommand</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#32"><abbr title="MySqlGrammar::compileSelect">compileSelect</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#107"><abbr title="MigrationServiceProvider::registerMigrateCommand">registerMigrateCommand</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#167"><abbr title="MigrationServiceProvider::registerInstallCommand">registerInstallCommand</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#133"><abbr title="MigrationServiceProvider::registerResetCommand">registerResetCommand</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1895"><abbr title="Builder::addBinding">addBinding</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="MigrationServiceProvider.php.html#120"><abbr title="MigrationServiceProvider::registerRollbackCommand">registerRollbackCommand</a></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Connection.php.html#559"><abbr title="Connection::run">run</a></a></td><td class="text-right">70%</td></tr>
+       <tr><td><a href="Connection.php.html#704"><abbr title="Connection::logQuery">logQuery</a></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Query/Builder.php.html#432"><abbr title="Builder::where">where</a></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="SeedServiceProvider.php.html#20"><abbr title="SeedServiceProvider::register">register</a></a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Query/Builder.php.html#1656"><abbr title="Builder::insert">insert</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#567"><abbr title="Grammar::compileUnions">compileUnions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Query/Builder.php.html#245"><abbr title="Builder::selectSub">selectSub</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/Builder.php.html#975"><abbr title="Builder::dynamicWhere">dynamicWhere</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#127"><abbr title="Grammar::compileJoins">compileJoins</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1037"><abbr title="Builder::groupBy">groupBy</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#34"><abbr title="Collection::load">load</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Builder.php.html#761"><abbr title="Builder::whereIn">whereIn</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1470"><abbr title="Builder::chunk">chunk</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1118"><abbr title="Builder::orderBy">orderBy</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#95"><abbr title="Collection::max">max</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#174"><abbr title="Collection::intersect">intersect</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#64"><abbr title="MySqlGrammar::compileLock">compileLock</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#78"><abbr title="MySqlGrammar::compileUpdate">compileUpdate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#101"><abbr title="MySqlGrammar::compileDelete">compileDelete</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#660"><abbr title="Grammar::compileUpdate">compileUpdate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#74"><abbr title="Grammar::compileAggregate">compileAggregate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#151"><abbr title="Collection::diff">diff</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#235"><abbr title="Collection::getDictionary">getDictionary</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#109"><abbr title="Collection::min">min</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1513"><abbr title="Builder::getListSelect">getListSelect</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Query/Builder.php.html#432"><abbr title="Builder::where">where</abbr></a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Connectors/MySqlConnector.php.html#11"><abbr title="MySqlConnector::connect">connect</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Connection.php.html#438"><abbr title="Connection::transaction">transaction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#470"><abbr title="Connection::beginTransaction">beginTransaction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#176"><abbr title="Grammar::compileJoinConstraint">compileJoinConstraint</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#307"><abbr title="Grammar::whereIn">whereIn</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#269"><abbr title="Grammar::whereBetween">whereBetween</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#487"><abbr title="Connection::commit">commit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#133"><abbr title="Collection::merge">merge</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#673"><abbr title="Connection::reconnect">reconnect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#14"><abbr title="Collection::find">find</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Eloquent/Collection.php.html#68"><abbr title="Collection::contains">contains</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#633"><abbr title="Connection::tryAgainIfCausedByLostConnection">tryAgainIfCausedByLostConnection</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#323"><abbr title="Grammar::whereNotIn">whereNotIn</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#501"><abbr title="Connection::rollBack">rollBack</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#526"><abbr title="Grammar::compileOrders">compileOrders</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#350"><abbr title="Connection::statement">statement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#50"><abbr title="MySqlGrammar::compileUnion">compileUnion</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#394"><abbr title="Connection::anonymous function">anonymous function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#252"><abbr title="Connection::selectOne">selectOne</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Processors/Processor.php.html#28"><abbr title="Processor::processInsertGetId">processInsertGetId</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MySqlConnection.php.html#15"><abbr title="MySqlConnection::getSchemaBuilder">getSchemaBuilder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#729"><abbr title="Grammar::compileLock">compileLock</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#600"><abbr title="Grammar::compileUnion">compileUnion</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#226"><abbr title="Builder::selectRaw">selectRaw</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#614"><abbr title="Grammar::compileInsert">compileInsert</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#369"><abbr title="Connection::affectingStatement">affectingStatement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#702"><abbr title="Grammar::compileDelete">compileDelete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Grammars/Grammar.php.html#491"><abbr title="Grammar::compileHaving">compileHaving</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1978"><abbr title="Builder::__call">__call</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#722"><abbr title="Connection::listen">listen</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#736"><abbr title="Connection::fireConnectionEvent">fireConnectionEvent</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1174"><abbr title="Builder::offset">offset</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1239"><abbr title="Builder::union">union</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1323"><abbr title="Builder::pluck">pluck</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#821"><abbr title="Connection::setPdo">setPdo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#850"><abbr title="Builder::whereNull">whereNull</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#278"><abbr title="Builder::addSelect">addSelect</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#212"><abbr title="Builder::select">select</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#323"><abbr title="Builder::join">join</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#699"><abbr title="Builder::whereExists">whereExists</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#826"><abbr title="Builder::whereInSub">whereInSub</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1336"><abbr title="Builder::first">first</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1438"><abbr title="Builder::backupFieldsForCount">backupFieldsForCount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1627"><abbr title="Builder::aggregate">aggregate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1771"><abbr title="Builder::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1788"><abbr title="Builder::truncate">truncate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1874"><abbr title="Builder::setBindings">setBindings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1564"><abbr title="Builder::count">count</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1602"><abbr title="Builder::sum">sum</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1535"><abbr title="Builder::implode">implode</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#212"><abbr title="Connection::getSchemaBuilder">getSchemaBuilder</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1453"><abbr title="Builder::restoreFieldsForCount">restoreFieldsForCount</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Connection.php.html#408"><abbr title="Connection::prepareBindings">prepareBindings</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Connection.php.html#688"><abbr title="Connection::reconnectIfMissingConnection">reconnectIfMissingConnection</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Query/Builder.php.html#1895"><abbr title="Builder::addBinding">addBinding</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Connection.php.html#704"><abbr title="Connection::logQuery">logQuery</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Connection.php.html#599"><abbr title="Connection::runQueryCallback">runQueryCallback</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Query/Grammars/MySqlGrammar.php.html#32"><abbr title="MySqlGrammar::compileSelect">compileSelect</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Connection.php.html#559"><abbr title="Connection::run">run</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.15</a> using <a href="http://php.net/" target="_top">PHP 5.5.9-1ubuntu4.6</a> and <a href="http://phpunit.de/">PHPUnit 4.5.0</a> at Fri Feb 27 17:34:28 UTC 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../../../../../../../../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../../../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../../../js/holder.js" type="text/javascript"></script>
+  <script src="../../../../../../../../../js/d3.min.js" type="text/javascript"></script>
+  <script src="../../../../../../../../../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,1,3,2,0,0,4,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([201,0,0,0,0,0,6,11,3,1,1,61], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[31.25,99,"<a href=\"Connection.php.html#13\">Connection<\/a>"],[62.5,4,"<a href=\"Connectors\/Connector.php.html#5\">Connector<\/a>"],[67.741935483871,13,"<a href=\"Connectors\/MySqlConnector.php.html#3\">MySqlConnector<\/a>"],[17.415730337079,167,"<a href=\"Query\/Builder.php.html#13\">Builder<\/a>"],[0,32,"<a href=\"Eloquent\/Collection.php.html#5\">Collection<\/a>"],[21.768707482993,73,"<a href=\"Query\/Grammars\/Grammar.php.html#6\">Grammar<\/a>"],[63.636363636364,15,"<a href=\"MigrationServiceProvider.php.html#15\">MigrationServiceProvider<\/a>"],[33.333333333333,6,"<a href=\"MySqlConnection.php.html#8\">MySqlConnection<\/a>"],[20.689655172414,15,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#5\">MySqlGrammar<\/a>"],[100,2,"<a href=\"Query\/Processors\/MySqlProcessor.php.html#3\">MySqlProcessor<\/a>"],[20,4,"<a href=\"Query\/Processors\/Processor.php.html#5\">Processor<\/a>"],[66.666666666667,4,"<a href=\"SeedServiceProvider.php.html#6\">SeedServiceProvider<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Connection.php.html#129\">Connection::__construct<\/a>"],[100,1,"<a href=\"Connection.php.html#155\">Connection::useDefaultQueryGrammar<\/a>"],[0,1,"<a href=\"Connection.php.html#165\">Connection::getDefaultQueryGrammar<\/a>"],[0,1,"<a href=\"Connection.php.html#175\">Connection::useDefaultSchemaGrammar<\/a>"],[100,1,"<a href=\"Connection.php.html#185\">Connection::getDefaultSchemaGrammar<\/a>"],[100,1,"<a href=\"Connection.php.html#192\">Connection::useDefaultPostProcessor<\/a>"],[0,1,"<a href=\"Connection.php.html#202\">Connection::getDefaultPostProcessor<\/a>"],[0,2,"<a href=\"Connection.php.html#212\">Connection::getSchemaBuilder<\/a>"],[0,1,"<a href=\"Connection.php.html#225\">Connection::table<\/a>"],[0,1,"<a href=\"Connection.php.html#240\">Connection::raw<\/a>"],[0,2,"<a href=\"Connection.php.html#252\">Connection::selectOne<\/a>"],[0,1,"<a href=\"Connection.php.html#266\">Connection::selectFromWriteConnection<\/a>"],[100,2,"<a href=\"Connection.php.html#279\">Connection::select<\/a>"],[0,2,"<a href=\"Connection.php.html#394\">Connection::anonymous function<\/a>"],[100,2,"<a href=\"Connection.php.html#302\">Connection::getPdoForSelect<\/a>"],[0,1,"<a href=\"Connection.php.html#314\">Connection::insert<\/a>"],[0,1,"<a href=\"Connection.php.html#326\">Connection::update<\/a>"],[0,1,"<a href=\"Connection.php.html#338\">Connection::delete<\/a>"],[0,2,"<a href=\"Connection.php.html#350\">Connection::statement<\/a>"],[0,2,"<a href=\"Connection.php.html#369\">Connection::affectingStatement<\/a>"],[100,2,"<a href=\"Connection.php.html#392\">Connection::unprepared<\/a>"],[63.636363636364,4,"<a href=\"Connection.php.html#408\">Connection::prepareBindings<\/a>"],[0,2,"<a href=\"Connection.php.html#438\">Connection::transaction<\/a>"],[0,2,"<a href=\"Connection.php.html#470\">Connection::beginTransaction<\/a>"],[0,2,"<a href=\"Connection.php.html#487\">Connection::commit<\/a>"],[0,2,"<a href=\"Connection.php.html#501\">Connection::rollBack<\/a>"],[0,1,"<a href=\"Connection.php.html#522\">Connection::transactionLevel<\/a>"],[0,1,"<a href=\"Connection.php.html#533\">Connection::pretend<\/a>"],[70,2,"<a href=\"Connection.php.html#559\">Connection::run<\/a>"],[50,2,"<a href=\"Connection.php.html#599\">Connection::runQueryCallback<\/a>"],[0,2,"<a href=\"Connection.php.html#633\">Connection::tryAgainIfCausedByLostConnection<\/a>"],[0,1,"<a href=\"Connection.php.html#651\">Connection::causedByLostConnection<\/a>"],[0,1,"<a href=\"Connection.php.html#661\">Connection::disconnect<\/a>"],[0,2,"<a href=\"Connection.php.html#673\">Connection::reconnect<\/a>"],[60,3,"<a href=\"Connection.php.html#688\">Connection::reconnectIfMissingConnection<\/a>"],[71.428571428571,3,"<a href=\"Connection.php.html#704\">Connection::logQuery<\/a>"],[0,2,"<a href=\"Connection.php.html#722\">Connection::listen<\/a>"],[0,2,"<a href=\"Connection.php.html#736\">Connection::fireConnectionEvent<\/a>"],[100,1,"<a href=\"Connection.php.html#750\">Connection::getElapsedTime<\/a>"],[0,1,"<a href=\"Connection.php.html#762\">Connection::getDoctrineColumn<\/a>"],[0,1,"<a href=\"Connection.php.html#774\">Connection::getDoctrineSchemaManager<\/a>"],[0,1,"<a href=\"Connection.php.html#784\">Connection::getDoctrineConnection<\/a>"],[100,1,"<a href=\"Connection.php.html#798\">Connection::getPdo<\/a>"],[100,3,"<a href=\"Connection.php.html#808\">Connection::getReadPdo<\/a>"],[0,2,"<a href=\"Connection.php.html#821\">Connection::setPdo<\/a>"],[0,1,"<a href=\"Connection.php.html#837\">Connection::setReadPdo<\/a>"],[100,1,"<a href=\"Connection.php.html#850\">Connection::setReconnector<\/a>"],[100,1,"<a href=\"Connection.php.html#862\">Connection::getName<\/a>"],[100,1,"<a href=\"Connection.php.html#873\">Connection::getConfig<\/a>"],[0,1,"<a href=\"Connection.php.html#883\">Connection::getDriverName<\/a>"],[100,1,"<a href=\"Connection.php.html#893\">Connection::getQueryGrammar<\/a>"],[0,1,"<a href=\"Connection.php.html#904\">Connection::setQueryGrammar<\/a>"],[0,1,"<a href=\"Connection.php.html#914\">Connection::getSchemaGrammar<\/a>"],[0,1,"<a href=\"Connection.php.html#925\">Connection::setSchemaGrammar<\/a>"],[100,1,"<a href=\"Connection.php.html#935\">Connection::getPostProcessor<\/a>"],[0,1,"<a href=\"Connection.php.html#946\">Connection::setPostProcessor<\/a>"],[0,1,"<a href=\"Connection.php.html#956\">Connection::getEventDispatcher<\/a>"],[100,1,"<a href=\"Connection.php.html#967\">Connection::setEventDispatcher<\/a>"],[100,1,"<a href=\"Connection.php.html#977\">Connection::pretending<\/a>"],[100,1,"<a href=\"Connection.php.html#987\">Connection::getFetchMode<\/a>"],[100,1,"<a href=\"Connection.php.html#998\">Connection::setFetchMode<\/a>"],[0,1,"<a href=\"Connection.php.html#1008\">Connection::getQueryLog<\/a>"],[0,1,"<a href=\"Connection.php.html#1018\">Connection::flushQueryLog<\/a>"],[0,1,"<a href=\"Connection.php.html#1028\">Connection::enableQueryLog<\/a>"],[0,1,"<a href=\"Connection.php.html#1038\">Connection::disableQueryLog<\/a>"],[0,1,"<a href=\"Connection.php.html#1048\">Connection::logging<\/a>"],[0,1,"<a href=\"Connection.php.html#1058\">Connection::getDatabaseName<\/a>"],[0,1,"<a href=\"Connection.php.html#1069\">Connection::setDatabaseName<\/a>"],[0,1,"<a href=\"Connection.php.html#1079\">Connection::getTablePrefix<\/a>"],[0,1,"<a href=\"Connection.php.html#1090\">Connection::setTablePrefix<\/a>"],[100,1,"<a href=\"Connection.php.html#1103\">Connection::withTablePrefix<\/a>"],[100,1,"<a href=\"Connectors\/Connector.php.html#26\">Connector::getOptions<\/a>"],[100,1,"<a href=\"Connectors\/Connector.php.html#41\">Connector::createConnection<\/a>"],[0,1,"<a href=\"Connectors\/Connector.php.html#55\">Connector::getDefaultOptions<\/a>"],[0,1,"<a href=\"Connectors\/Connector.php.html#66\">Connector::setDefaultOptions<\/a>"],[65.217391304348,6,"<a href=\"Connectors\/MySqlConnector.php.html#11\">MySqlConnector::connect<\/a>"],[100,2,"<a href=\"Connectors\/MySqlConnector.php.html#67\">MySqlConnector::getDsn<\/a>"],[100,2,"<a href=\"Connectors\/MySqlConnector.php.html#78\">MySqlConnector::configHasSocket<\/a>"],[0,1,"<a href=\"Connectors\/MySqlConnector.php.html#89\">MySqlConnector::getSocketDsn<\/a>"],[100,2,"<a href=\"Connectors\/MySqlConnector.php.html#102\">MySqlConnector::getHostDsn<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#197\">Builder::__construct<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#212\">Builder::select<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#226\">Builder::selectRaw<\/a>"],[0,4,"<a href=\"Query\/Builder.php.html#245\">Builder::selectSub<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#278\">Builder::addSelect<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#292\">Builder::distinct<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#305\">Builder::from<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#323\">Builder::join<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#360\">Builder::joinWhere<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#374\">Builder::leftJoin<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#388\">Builder::leftJoinWhere<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#402\">Builder::rightJoin<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#416\">Builder::rightJoinWhere<\/a>"],[75,10,"<a href=\"Query\/Builder.php.html#432\">Builder::where<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1828\">Builder::anonymous function<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#515\">Builder::orWhere<\/a>"],[100,3,"<a href=\"Query\/Builder.php.html#527\">Builder::invalidOperatorAndValue<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#542\">Builder::whereRaw<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#560\">Builder::orWhereRaw<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#574\">Builder::whereBetween<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#592\">Builder::orWhereBetween<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#605\">Builder::whereNotBetween<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#617\">Builder::orWhereNotBetween<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#629\">Builder::whereNested<\/a>"],[100,2,"<a href=\"Query\/Builder.php.html#650\">Builder::addNestedWhereQuery<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#673\">Builder::whereSub<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#699\">Builder::whereExists<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#724\">Builder::orWhereExists<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#736\">Builder::whereNotExists<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#747\">Builder::orWhereNotExists<\/a>"],[0,3,"<a href=\"Query\/Builder.php.html#761\">Builder::whereIn<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#787\">Builder::orWhereIn<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#800\">Builder::whereNotIn<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#812\">Builder::orWhereNotIn<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#826\">Builder::whereInSub<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#850\">Builder::whereNull<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#865\">Builder::orWhereNull<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#877\">Builder::whereNotNull<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#888\">Builder::orWhereNotNull<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#902\">Builder::whereDate<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#916\">Builder::whereDay<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#930\">Builder::whereMonth<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#944\">Builder::whereYear<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#959\">Builder::addDateBasedWhere<\/a>"],[0,4,"<a href=\"Query\/Builder.php.html#975\">Builder::dynamicWhere<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1021\">Builder::addDynamic<\/a>"],[0,3,"<a href=\"Query\/Builder.php.html#1037\">Builder::groupBy<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1056\">Builder::having<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1075\">Builder::orHaving<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1088\">Builder::havingRaw<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1106\">Builder::orHavingRaw<\/a>"],[0,3,"<a href=\"Query\/Builder.php.html#1118\">Builder::orderBy<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1134\">Builder::latest<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1145\">Builder::oldest<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1157\">Builder::orderByRaw<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1174\">Builder::offset<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1189\">Builder::skip<\/a>"],[100,3,"<a href=\"Query\/Builder.php.html#1200\">Builder::limit<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1215\">Builder::take<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1227\">Builder::forPage<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1239\">Builder::union<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1257\">Builder::unionAll<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1268\">Builder::lock<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1280\">Builder::lockForUpdate<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1290\">Builder::sharedLock<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1300\">Builder::toSql<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1312\">Builder::find<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1323\">Builder::pluck<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1336\">Builder::first<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1349\">Builder::get<\/a>"],[100,2,"<a href=\"Query\/Builder.php.html#1360\">Builder::getFresh<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1372\">Builder::runSelect<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1384\">Builder::paginate<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1406\">Builder::simplePaginate<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1422\">Builder::getCountForPagination<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1438\">Builder::backupFieldsForCount<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1453\">Builder::restoreFieldsForCount<\/a>"],[0,3,"<a href=\"Query\/Builder.php.html#1470\">Builder::chunk<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1497\">Builder::lists<\/a>"],[0,3,"<a href=\"Query\/Builder.php.html#1513\">Builder::getListSelect<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1535\">Builder::implode<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1547\">Builder::exists<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1564\">Builder::count<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1580\">Builder::min<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1591\">Builder::max<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1602\">Builder::sum<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1615\">Builder::avg<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1627\">Builder::aggregate<\/a>"],[0,5,"<a href=\"Query\/Builder.php.html#1656\">Builder::insert<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1707\">Builder::insertGetId<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1722\">Builder::update<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1739\">Builder::increment<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1756\">Builder::decrement<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1771\">Builder::delete<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1788\">Builder::truncate<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1801\">Builder::newQuery<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1813\">Builder::mergeWheres<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1826\">Builder::cleanBindings<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1840\">Builder::raw<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1850\">Builder::getBindings<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1860\">Builder::getRawBindings<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1874\">Builder::setBindings<\/a>"],[66.666666666667,3,"<a href=\"Query\/Builder.php.html#1895\">Builder::addBinding<\/a>"],[100,1,"<a href=\"Query\/Builder.php.html#1920\">Builder::mergeBindings<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1932\">Builder::getConnection<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1942\">Builder::getProcessor<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1952\">Builder::getGrammar<\/a>"],[0,1,"<a href=\"Query\/Builder.php.html#1962\">Builder::useWritePdo<\/a>"],[0,2,"<a href=\"Query\/Builder.php.html#1978\">Builder::__call<\/a>"],[0,2,"<a href=\"Eloquent\/Collection.php.html#14\">Collection::find<\/a>"],[100,1,"<a href=\"Eloquent\/Collection.php.html#124\">Collection::anonymous function<\/a>"],[0,3,"<a href=\"Eloquent\/Collection.php.html#34\">Collection::load<\/a>"],[0,1,"<a href=\"Eloquent\/Collection.php.html#54\">Collection::add<\/a>"],[0,2,"<a href=\"Eloquent\/Collection.php.html#68\">Collection::contains<\/a>"],[0,1,"<a href=\"Eloquent\/Collection.php.html#84\">Collection::fetch<\/a>"],[0,3,"<a href=\"Eloquent\/Collection.php.html#95\">Collection::max<\/a>"],[0,3,"<a href=\"Eloquent\/Collection.php.html#109\">Collection::min<\/a>"],[100,1,"<a href=\"Eloquent\/Collection.php.html#122\">Collection::modelKeys<\/a>"],[0,2,"<a href=\"Eloquent\/Collection.php.html#133\">Collection::merge<\/a>"],[0,3,"<a href=\"Eloquent\/Collection.php.html#151\">Collection::diff<\/a>"],[0,3,"<a href=\"Eloquent\/Collection.php.html#174\">Collection::intersect<\/a>"],[0,1,"<a href=\"Eloquent\/Collection.php.html#196\">Collection::unique<\/a>"],[0,1,"<a href=\"Eloquent\/Collection.php.html#209\">Collection::only<\/a>"],[0,1,"<a href=\"Eloquent\/Collection.php.html#222\">Collection::except<\/a>"],[0,3,"<a href=\"Eloquent\/Collection.php.html#235\">Collection::getDictionary<\/a>"],[0,1,"<a href=\"Eloquent\/Collection.php.html#254\">Collection::toBase<\/a>"],[100,2,"<a href=\"Query\/Grammars\/Grammar.php.html#34\">Grammar::compileSelect<\/a>"],[100,3,"<a href=\"Query\/Grammars\/Grammar.php.html#47\">Grammar::compileComponents<\/a>"],[0,3,"<a href=\"Query\/Grammars\/Grammar.php.html#74\">Grammar::compileAggregate<\/a>"],[100,3,"<a href=\"Query\/Grammars\/Grammar.php.html#96\">Grammar::compileColumns<\/a>"],[100,1,"<a href=\"Query\/Grammars\/Grammar.php.html#115\">Grammar::compileFrom<\/a>"],[0,4,"<a href=\"Query\/Grammars\/Grammar.php.html#127\">Grammar::compileJoins<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#176\">Grammar::compileJoinConstraint<\/a>"],[90.909090909091,4,"<a href=\"Query\/Grammars\/Grammar.php.html#191\">Grammar::compileWheres<\/a>"],[100,1,"<a href=\"Query\/Grammars\/Grammar.php.html#227\">Grammar::whereNested<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#241\">Grammar::whereSub<\/a>"],[100,1,"<a href=\"Query\/Grammars\/Grammar.php.html#255\">Grammar::whereBasic<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#269\">Grammar::whereBetween<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#283\">Grammar::whereExists<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#295\">Grammar::whereNotExists<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#307\">Grammar::whereIn<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#323\">Grammar::whereNotIn<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#339\">Grammar::whereInSub<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#353\">Grammar::whereNotInSub<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#367\">Grammar::whereNull<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#379\">Grammar::whereNotNull<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#391\">Grammar::whereDate<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#403\">Grammar::whereDay<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#415\">Grammar::whereMonth<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#427\">Grammar::whereYear<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#440\">Grammar::dateBasedWhere<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#454\">Grammar::whereRaw<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#466\">Grammar::compileGroups<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#478\">Grammar::compileHavings<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#491\">Grammar::compileHaving<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#510\">Grammar::compileBasicHaving<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#526\">Grammar::compileOrders<\/a>"],[100,1,"<a href=\"Query\/Grammars\/Grammar.php.html#742\">Grammar::anonymous function<\/a>"],[100,1,"<a href=\"Query\/Grammars\/Grammar.php.html#544\">Grammar::compileLimit<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#556\">Grammar::compileOffset<\/a>"],[0,5,"<a href=\"Query\/Grammars\/Grammar.php.html#567\">Grammar::compileUnions<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#600\">Grammar::compileUnion<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#614\">Grammar::compileInsert<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#648\">Grammar::compileInsertGetId<\/a>"],[0,3,"<a href=\"Query\/Grammars\/Grammar.php.html#660\">Grammar::compileUpdate<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#702\">Grammar::compileDelete<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#717\">Grammar::compileTruncate<\/a>"],[0,2,"<a href=\"Query\/Grammars\/Grammar.php.html#729\">Grammar::compileLock<\/a>"],[100,1,"<a href=\"Query\/Grammars\/Grammar.php.html#740\">Grammar::concatenate<\/a>"],[0,1,"<a href=\"Query\/Grammars\/Grammar.php.html#754\">Grammar::removeLeadingBoolean<\/a>"],[100,1,"<a href=\"MigrationServiceProvider.php.html#29\">MigrationServiceProvider::register<\/a>"],[50,1,"<a href=\"MigrationServiceProvider.php.html#46\">MigrationServiceProvider::registerRepository<\/a>"],[50,1,"<a href=\"MigrationServiceProvider.php.html#204\">MigrationServiceProvider::anonymous function<\/a>"],[50,1,"<a href=\"MigrationServiceProvider.php.html#61\">MigrationServiceProvider::registerMigrator<\/a>"],[100,2,"<a href=\"MigrationServiceProvider.php.html#79\">MigrationServiceProvider::registerCommands<\/a>"],[66.666666666667,1,"<a href=\"MigrationServiceProvider.php.html#107\">MigrationServiceProvider::registerMigrateCommand<\/a>"],[66.666666666667,1,"<a href=\"MigrationServiceProvider.php.html#120\">MigrationServiceProvider::registerRollbackCommand<\/a>"],[66.666666666667,1,"<a href=\"MigrationServiceProvider.php.html#133\">MigrationServiceProvider::registerResetCommand<\/a>"],[66.666666666667,1,"<a href=\"MigrationServiceProvider.php.html#146\">MigrationServiceProvider::registerRefreshCommand<\/a>"],[66.666666666667,1,"<a href=\"MigrationServiceProvider.php.html#154\">MigrationServiceProvider::registerStatusCommand<\/a>"],[66.666666666667,1,"<a href=\"MigrationServiceProvider.php.html#167\">MigrationServiceProvider::registerInstallCommand<\/a>"],[50,1,"<a href=\"MigrationServiceProvider.php.html#180\">MigrationServiceProvider::registerMakeCommand<\/a>"],[100,1,"<a href=\"MigrationServiceProvider.php.html#202\">MigrationServiceProvider::registerCreator<\/a>"],[0,1,"<a href=\"MigrationServiceProvider.php.html#215\">MigrationServiceProvider::provides<\/a>"],[0,2,"<a href=\"MySqlConnection.php.html#15\">MySqlConnection::getSchemaBuilder<\/a>"],[100,1,"<a href=\"MySqlConnection.php.html#27\">MySqlConnection::getDefaultQueryGrammar<\/a>"],[0,1,"<a href=\"MySqlConnection.php.html#37\">MySqlConnection::getDefaultSchemaGrammar<\/a>"],[100,1,"<a href=\"MySqlConnection.php.html#47\">MySqlConnection::getDefaultPostProcessor<\/a>"],[0,1,"<a href=\"MySqlConnection.php.html#57\">MySqlConnection::getDoctrineDriver<\/a>"],[66.666666666667,2,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#32\">MySqlGrammar::compileSelect<\/a>"],[0,2,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#50\">MySqlGrammar::compileUnion<\/a>"],[0,3,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#64\">MySqlGrammar::compileLock<\/a>"],[0,3,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#78\">MySqlGrammar::compileUpdate<\/a>"],[0,3,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#101\">MySqlGrammar::compileDelete<\/a>"],[100,2,"<a href=\"Query\/Grammars\/MySqlGrammar.php.html#123\">MySqlGrammar::wrapValue<\/a>"],[100,1,"<a href=\"Query\/Processors\/MySqlProcessor.php.html#11\">MySqlProcessor::processColumnListing<\/a>"],[100,1,"<a href=\"Query\/Processors\/MySqlProcessor.php.html#13\">MySqlProcessor::anonymous function<\/a>"],[100,1,"<a href=\"Query\/Processors\/Processor.php.html#14\">Processor::processSelect<\/a>"],[0,2,"<a href=\"Query\/Processors\/Processor.php.html#28\">Processor::processInsertGetId<\/a>"],[0,1,"<a href=\"Query\/Processors\/Processor.php.html#43\">Processor::processColumnListing<\/a>"],[80,1,"<a href=\"SeedServiceProvider.php.html#20\">SeedServiceProvider::register<\/a>"],[50,1,"<a href=\"SeedServiceProvider.php.html#39\">SeedServiceProvider::anonymous function<\/a>"],[100,1,"<a href=\"SeedServiceProvider.php.html#37\">SeedServiceProvider::registerSeedCommand<\/a>"],[0,1,"<a href=\"SeedServiceProvider.php.html#50\">SeedServiceProvider::provides<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
